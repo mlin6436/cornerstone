@@ -27,8 +27,14 @@ if test ! $(which brew); then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+echo "Updating brew..."
+brew update && brew upgrade
+
 echo "Installing brew cask..."
 brew install caskroom/cask/brew-cask
+
+echo "Updateing cask..."
+brew upgrade brew-cask
 
 echo "Installing applications..."
 brew cask install --appdir=$appdir ${apps[@]}
@@ -37,6 +43,6 @@ echo "Updating applications path for Alfred..."
 brew cask alfred link
 
 echo "Cleaning up..."
-brew cleanup
+brew cleanup && brew cask cleanup
 
 exit 0

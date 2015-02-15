@@ -11,9 +11,6 @@ $ ./<setup>.sh
 
 In addition, some great apps still need to be installed manually:
 
-```text
-Popcorn-Time
-Universal Translator
-Wunderlist
-XBMC
-```
+- [Popcorn-Time](http://www.popcorn-time.se/)
+- [Wunderlist](https://www.wunderlist.com/)
+- [XBMC](http://kodi.tv/)
