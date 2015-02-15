@@ -12,7 +12,6 @@ apps=(
   google-chrome
   google-web-designer
   intellij-idea
-  memorytamer
   skype
   spotifree
   spotify
