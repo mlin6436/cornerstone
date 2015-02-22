@@ -12,6 +12,7 @@ apps=(
   google-chrome
   google-web-designer
   intellij-idea
+  mactex
   skype
   spotifree
   spotify
