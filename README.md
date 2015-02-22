@@ -9,8 +9,15 @@ $ chmod 744 <setup>.sh
 $ ./<setup>.sh
 ```
 
-In addition, some great apps still need to be installed manually:
+In addition, some great applicaitons still need to be installed manually:
 
 - [Popcorn-Time](http://www.popcorn-time.se/)
 - [Wunderlist](https://www.wunderlist.com/)
 - [XBMC](http://kodi.tv/)
+
+Also, there are some applicaitons better install according to the needs, manually:
+
+- [XCode Command Line Tool] - in case you don't need complete XCode
+- [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+- [JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+- [Xamarin](http://xamarin.com/platform)
