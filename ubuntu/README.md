@@ -9,7 +9,7 @@ $ chmod 744 <setup>.sh
 $ ./<setup>.sh
 ```
 
-Also, as part of customisation, the script includes [natural scrolling](http://askubuntu.com/questions/137444/is-there-anyway-to-enable-system-wide-inverse-scrolling), [spotify](https://www.spotify.com/uk/download/previews/) [flux](https://justgetflux.com/linux.html) and removing guest access, please feel free to remove them according to specific needs.
+Also, as part of customisation, the script includes [natural scrolling](http://askubuntu.com/questions/137444/is-there-anyway-to-enable-system-wide-inverse-scrolling), [spotify](https://www.spotify.com/uk/download/previews/), [flux](https://justgetflux.com/linux.html) and removing guest access, please feel free to change them according to different needs.
 
 For rvm to work properly, it is advised to follow [this](https://rvm.io/integration/gnome-terminal) instruction first.
 
