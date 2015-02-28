@@ -51,6 +51,23 @@ do
 done
 
 ##############################
+# mongodb
+##############################
+
+if [ -z "$(which mongo)" ]; then
+	echo "Adding mongodb public key..."
+	sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+	echo "Adding mongodb repository..."
+	echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+	echo "Installing mongodb..."
+	sudo apt-get update
+	sudo apt-get install mongodb-org -y
+	echo "Finished installing mongodb..."
+else
+	echo "mongodb already exists."
+fi
+
+##############################
 # node packages
 ##############################
 
