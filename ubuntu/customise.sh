@@ -153,6 +153,10 @@ else
 	echo "natural scrolling already exists."
 fi
 
+##############################
+# flux
+##############################
+
 if [ -z "$(which fluxgui)" ]; then
 	echo "Adding fluxgui repository..."
 	sudo add-apt-repository ppa:kilian/f.lux -y
@@ -162,6 +166,21 @@ if [ -z "$(which fluxgui)" ]; then
 	echo "Finished installing fluxgui..."
 else
 	echo "fluxgui already exists."
+fi
+
+##############################
+# caffeine
+##############################
+
+if [ -z "$(which caffeine)" ]; then
+	echo "Adding caffeine repository..."
+	sudo add-apt-repository ppa:caffeine-developers/ppa -y
+	sudo apt-get update
+	echo "Installing caffeine..."
+	sudo apt-get install caffeine -y
+	echo "Finished installing caffeine..."
+else
+	echo "caffeine already exists."
 fi
 
 ##############################
