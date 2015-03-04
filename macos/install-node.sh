@@ -1,28 +1,37 @@
 set -e
 
+packages=(
+  bower
+  grunt-cli
+  mean-cli
+  sails
+  yo
+)
+
 if test ! $(which brew); then
   echo "Installing homebrew..."
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-echo "Installing node..."
-brew install node
-
-echo "Cleaning up..."
-brew cleanup
+if test ! $(which node); then
+  echo "Installing node..."
+  brew install node
+fi
 
 echo "Cleaning node npm cache..."
 npm cache clean -f
 
-echo "Installing node stable version..."
-npm install -g n
-n stable
+if test ! $(which n); then
+  echo "Installing n..."
+  npm install -g n
+  echo "Configuring n to use stable version..."
+  n stable
+fi
 
 echo "Installing node packages..."
-npm install -g grunt-cli
-npm install -g bower
-npm install -g yo
-npm install -g mean-cli
+npm install -g ${apps[@]}
+
+echo "Installing meteor..."
 curl https://install.meteor.com/ | sh
 
 exit 0
