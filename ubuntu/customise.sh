@@ -206,6 +206,21 @@ else
 fi
 
 ##############################
+# solaar
+##############################
+
+if [ -z "$(which solaar)" ]; then
+	echo "Adding solaar repository..."
+	sudo add-apt-repository ppa:daniel.pavel/solaar -y
+	sudo apt-get update
+	echo "Installing solaar..."
+	sudo apt-get install solaar -y
+	echo "Finished installing solaar..."
+else
+	echo "solaar already exists."
+fi
+
+##############################
 # disable guest access
 ##############################
 
