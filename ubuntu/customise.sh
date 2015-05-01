@@ -33,7 +33,7 @@ nodes=(
 	["yo"]="yo"
 )
 
-ruby_version="ruby-2.2.0"
+ruby_version="ruby-1.9.3"
 
 ##############################
 # binaries
