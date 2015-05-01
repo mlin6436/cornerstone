@@ -4,6 +4,7 @@ username="Meng Lin"
 
 declare -A binaries
 binaries=(
+	["git"]="git"
 	["chromium-browser"]="chromium-browser"
 	["java"]="default-jdk"
 	["java"]="default-jre"
