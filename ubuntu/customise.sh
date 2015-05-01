@@ -29,7 +29,7 @@ declare -A nodes
 nodes=(
 	["bower"]="bower"
 	["grunt"]="grunt-cli"
-	["mean"]="meanio"
+	["mean"]="mean-cli"
 	["yo"]="yo"
 )
 
