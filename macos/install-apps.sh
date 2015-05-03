@@ -9,6 +9,7 @@ apps=(
   caffeine
   evernote
   firefox
+  flux
   google-chrome
   google-web-designer
   intellij-idea
