@@ -7,7 +7,6 @@ apps=(
   atom
   appcleaner
   caffeine
-  droplr
   evernote
   firefox
   flux
