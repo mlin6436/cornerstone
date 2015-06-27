@@ -1,6 +1,6 @@
 binaries=(
   git
-  go
+  jenv
   maven
   mongodb
   python
