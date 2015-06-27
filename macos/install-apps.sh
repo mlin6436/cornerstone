@@ -15,6 +15,7 @@ apps=(
   intellij-idea
   iterm2
   mactex
+  slack
   skype
   spotifree
   spotify
