@@ -2,7 +2,6 @@ set -e
 
 appdir="/Applications"
 apps=(
-  alfred
   android-file-transfer
   atom
   appcleaner
@@ -14,7 +13,6 @@ apps=(
   google-web-designer
   intellij-idea
   iterm2
-  java7
   java
   mactex
   slack
@@ -25,6 +23,8 @@ apps=(
   vagrant
   virtualbox
   vlc
+  xamarin-mdk
+  xamarin-studio
 )
 
 if test ! $(which brew); then
