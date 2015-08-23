@@ -13,6 +13,7 @@ apps=(
   google-web-designer
   intellij-idea
   iterm2
+  java7
   java
   mactex
   slack
