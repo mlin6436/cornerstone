@@ -15,6 +15,4 @@ Some popular applications still need to be installed manually:
 Also, there are some applications better install according to the needs, manually:
 
 - [XCode Command Line Tool](https://developer.apple.com/xcode/downloads/) - in case you don't need complete XCode
-- [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) - choose the version of Java you need
-- [JRE](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
-- [Xamarin](http://xamarin.com/platform) - this is available using brew cask, but better find the right cask you want
+
