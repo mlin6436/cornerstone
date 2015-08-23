@@ -1,13 +1,34 @@
 binaries=(
+  activemq
+  cassandra
+  dart
+  docker
+  emacs
+  flow
   git
+  go
+  gradle
+  iojs
   jenv
   maven
+  maven32
+  mysql
   mongodb
+  neo4j
+  phantomjs
   python
-  scala
+  postgresql
+  redis
+  rust
   sbt
+  scala
+  sqlite
+  stunnel
+  subversion
   tomcat
   tree
+  typesafe-activator
+  vim
 )
 
 if test ! $(which brew); then
