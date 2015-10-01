@@ -45,9 +45,6 @@ brew upgrade brew-cask
 echo "Installing applications..."
 brew cask install --appdir=$appdir ${apps[@]}
 
-echo "Updating applications path for Alfred..."
-brew cask alfred link
-
 echo "Cleaning up..."
 brew cleanup && brew cask cleanup
 
