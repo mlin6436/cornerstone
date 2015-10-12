@@ -31,7 +31,4 @@ fi
 echo "Installing node packages..."
 npm install -g ${apps[@]}
 
-echo "Installing meteor..."
-curl https://install.meteor.com/ | sh
-
 exit 0
