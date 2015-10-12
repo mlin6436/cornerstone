@@ -2,7 +2,6 @@ set -e
 
 appdir="/Applications"
 apps=(
-  android-file-transfer
   atom
   appcleaner
   caffeine
@@ -10,20 +9,30 @@ apps=(
   firefox
   flux
   google-chrome
+  slack
+  skype
+  spotifree
+  spotify
+  the-unarchiver
+  vlc
+)
+
+devApps=(
+  android-file-transfer
+  android-studio
   google-web-designer
   intellij-idea
   iterm2
   java7
   java
   mactex
-  slack
-  skype
-  spotifree
-  spotify
-  the-unarchiver
+  mysqlworkbench
+  textual
   vagrant
   virtualbox
-  vlc
+  visual-studio-code
+  vmware-fusion
+  wireshark
   xamarin-mdk
   xamarin-studio
 )
