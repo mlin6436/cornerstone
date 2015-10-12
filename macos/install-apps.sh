@@ -20,6 +20,7 @@ apps=(
 devApps=(
   android-file-transfer
   android-studio
+  charles
   google-web-designer
   intellij-idea
   iterm2
@@ -35,6 +36,7 @@ devApps=(
   wireshark
   xamarin-mdk
   xamarin-studio
+  xquartz
 )
 
 if test ! $(which brew); then
