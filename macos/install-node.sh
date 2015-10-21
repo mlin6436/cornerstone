@@ -2,6 +2,8 @@ set -e
 
 packages=(
   bower
+  grunt-cli
+  gulp
   yo
 )
 
