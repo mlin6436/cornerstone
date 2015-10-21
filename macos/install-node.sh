@@ -2,9 +2,6 @@ set -e
 
 packages=(
   bower
-  grunt-cli
-  mean-cli
-  sails
   yo
 )
 
