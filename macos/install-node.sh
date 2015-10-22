@@ -1,9 +1,26 @@
 set -e
 
 packages=(
+  angular
+  bluebird
+  bootstrap
   bower
+  chalk
+  coffee-script
+  express
+  generator-angular
+  generator-jasmine
+  generator-karma
+  generator-mocha
+  generator-node
+  generator-react
+  grunt
   grunt-cli
+  grunt-init
   gulp
+  jshint
+  mean-cli
+  nodemon
   yo
 )
 
