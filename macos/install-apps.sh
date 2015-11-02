@@ -2,6 +2,7 @@ set -e
 
 appdir="/Applications"
 apps=(
+  aerial
   atom
   appcleaner
   caffeine
