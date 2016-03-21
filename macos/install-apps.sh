@@ -51,7 +51,7 @@ brew update && brew upgrade
 echo "Installing brew cask..."
 brew install caskroom/cask/brew-cask
 
-echo "Updateing cask..."
+echo "Updating cask..."
 brew upgrade brew-cask
 
 echo "Installing applications..."
