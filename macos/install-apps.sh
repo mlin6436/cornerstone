@@ -9,6 +9,7 @@ apps=(
   evernote
   firefox
   flux
+  gitter
   google-chrome
   slack
   skype
@@ -23,17 +24,14 @@ devApps=(
   android-studio
   charles
   google-web-designer
-  intellij-idea
+  intellij-idea-ce
   iterm2
   java7
   java
-  mactex
-  mysqlworkbench
   textual
   vagrant
   virtualbox
   visual-studio-code
-  vmware-fusion
   wireshark
   xamarin-mdk
   xamarin-studio
