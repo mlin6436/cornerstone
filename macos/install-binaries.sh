@@ -1,29 +1,15 @@
 binaries=(
   activemq
-  cassandra
-  dart
-  docker
-  emacs
-  flow
+  awscli
   git
-  go
-  gradle
-  iojs
   jenv
   maven
-  maven32
-  mysql
   mongodb
-  neo4j
-  phantomjs
   python
   postgresql
-  redis
   rust
   sbt
   scala
-  sqlite
-  stunnel
   subversion
   tomcat
   tree
