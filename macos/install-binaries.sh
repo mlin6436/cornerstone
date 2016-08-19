@@ -5,8 +5,9 @@ binaries=(
   jenv
   maven
   mongodb
-  python
+  mysql
   postgresql
+  python
   rust
   sbt
   scala
