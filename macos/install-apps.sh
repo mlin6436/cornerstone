@@ -3,19 +3,23 @@ set -e
 appdir="/Applications"
 apps=(
   aerial
-  atom
   appcleaner
+  atom
   caffeine
   evernote
   firefox
   flux
   gitter
   google-chrome
+  intellij-idea-ce
+  java
+  java7
   slack
   skype
   spotifree
   spotify
   the-unarchiver
+  visual-studio-code
   vlc
 )
 
