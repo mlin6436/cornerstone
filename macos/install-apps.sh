@@ -6,16 +6,13 @@ apps=(
   appcleaner
   atom
   caffeine
-  evernote
   firefox
   flux
   gitter
   google-chrome
   intellij-idea-ce
   java
-  java7
   slack
-  skype
   spotifree
   spotify
   the-unarchiver
@@ -29,8 +26,6 @@ devApps=(
   charles
   google-web-designer
   intellij-idea-ce
-  iterm2
-  java7
   java
   textual
   vagrant
