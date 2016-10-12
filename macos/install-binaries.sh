@@ -16,8 +16,6 @@ binaries=(
   tree
   typesafe-activator
   vim
-  zsh
-  zsh-completions
 )
 
 if test ! $(which brew); then
