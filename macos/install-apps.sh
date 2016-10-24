@@ -12,6 +12,7 @@ apps=(
   google-chrome
   intellij-idea-ce
   java
+  mattermost
   slack
   spotifree
   spotify
