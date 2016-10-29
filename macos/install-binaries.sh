@@ -1,6 +1,7 @@
 binaries=(
   activemq
   awscli
+  ghc
   git
   jenv
   maven
