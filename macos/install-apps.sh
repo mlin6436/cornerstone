@@ -3,38 +3,31 @@ set -e
 appdir="/Applications"
 apps=(
   aerial
+  android-file-transfer
   appcleaner
-  atom
   caffeine
   firefox
   flux
-  gitter
   google-chrome
-  intellij-idea-ce
-  java
-  mattermost
-  slack
   spotifree
   spotify
   the-unarchiver
-  visual-studio-code
   vlc
 )
 
 devApps=(
-  android-file-transfer
-  android-studio
-  charles
+  atom
+  filezilla
+  gitter
   google-web-designer
   intellij-idea-ce
   java
-  textual
+  mattermost
+  slack
   vagrant
   virtualbox
   visual-studio-code
   wireshark
-  xamarin-mdk
-  xamarin-studio
   xquartz
 )
 
