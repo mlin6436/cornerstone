@@ -6,6 +6,7 @@ apps=(
   android-file-transfer
   appcleaner
   caffeine
+  dropbox
   firefox
   flux
   google-chrome
@@ -17,12 +18,14 @@ apps=(
 
 devApps=(
   atom
+  docker
   filezilla
   gitter
   google-web-designer
   intellij-idea-ce
   java
   mattermost
+  postman
   slack
   vagrant
   virtualbox
