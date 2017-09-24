@@ -1,9 +1,11 @@
 binaries=(
   activemq
+  apache-spark
   awscli
+  dotty
   ghc
   git
-  jenv
+  kotlin
   maven
   mongodb
   mysql
@@ -17,6 +19,7 @@ binaries=(
   tree
   typesafe-activator
   vim
+  yarn
 )
 
 if test ! $(which brew); then
@@ -27,12 +30,12 @@ fi
 echo "Updating brew..."
 brew update && brew upgrade
 
-echo "Installing core Mac OS utils"
+echo "Installing Oh My Zshell..."
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+echo "Installing core Mac OS utils..."
 brew install coreutils
 brew install findutils
-brew install bash
-brew tap homebrew/dupes
-brew install homebrew/dupes/grep
 
 echo "Installing binaries..."
 brew install ${binaries[@]}
