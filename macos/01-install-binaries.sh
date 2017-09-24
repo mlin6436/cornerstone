@@ -6,6 +6,7 @@ binaries=(
   ghc
   git
   kotlin
+  mackup
   maven
   mongodb
   mysql
