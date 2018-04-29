@@ -13,6 +13,7 @@ apps=(
   spotifree
   spotify
   the-unarchiver
+  vitalsource-bookshelf
   vlc
 )
 
