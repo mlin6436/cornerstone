@@ -1,17 +1,30 @@
 binaries=(
+  git
+  mackup
+  python
+  sbt
+  scala
+  tmux
+  tree
+  typesafe-activator
+  vim
+)
+
+dev_binaries=(
   activemq
   apache-spark
   awscli
+  docker
   dotty
+  elasticsearch
   ghc
-  git
+  gradle
   kotlin
-  mackup
   maven
   mongodb
   mysql
+  openssl
   postgresql
-  python
   rust
   sbt
   scala
