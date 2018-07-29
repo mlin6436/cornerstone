@@ -2,6 +2,7 @@ set -e
 
 appdir="/Applications"
 apps=(
+  atom
   aerial
   android-file-transfer
   appcleaner
@@ -15,17 +16,17 @@ apps=(
   the-unarchiver
   vitalsource-bookshelf
   vlc
+  whatsapp
 )
 
 devApps=(
-  atom
+  dbeaver-community
   docker
   filezilla
   gitter
   google-web-designer
   intellij-idea-ce
   java
-  mattermost
   postman
   slack
   vagrant
