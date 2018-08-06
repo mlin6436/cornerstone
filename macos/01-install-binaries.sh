@@ -19,6 +19,7 @@ dev_binaries=(
   elasticsearch
   ghc
   gradle
+  jenv
   kotlin
   maven
   mongodb
@@ -42,7 +43,7 @@ if test ! $(which brew); then
 fi
 
 echo "Updating brew..."
-brew update && brew upgrade
+brew update && brew upgrade && brew cask upgrade && brew cleanup && brew cask cleanup
 
 echo "Installing Oh My Zshell..."
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
