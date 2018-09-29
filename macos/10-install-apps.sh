@@ -42,7 +42,7 @@ if test ! $(which brew); then
 fi
 
 echo "Updating brew..."
-brew update && brew upgrade && brew cask upgrade && brew cleanup && brew cask cleanup
+brew update && brew upgrade && brew cleanup
 
 echo "Installing brew cask..."
 brew install caskroom/cask/brew-cask
