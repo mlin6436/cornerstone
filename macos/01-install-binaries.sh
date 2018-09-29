@@ -43,7 +43,7 @@ if test ! $(which brew); then
 fi
 
 echo "Updating brew..."
-brew update && brew upgrade && brew cleanup
+brew update && brew upgrade
 
 echo "Installing Oh My Zshell..."
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
