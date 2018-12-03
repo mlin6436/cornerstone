@@ -26,7 +26,6 @@ devApps=(
   gitter
   google-web-designer
   intellij-idea-ce
-  java
   postman
   slack
   vagrant
