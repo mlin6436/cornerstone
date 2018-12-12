@@ -2,7 +2,6 @@ set -e
 
 appdir="/Applications"
 apps=(
-  atom
   aerial
   android-file-transfer
   appcleaner
