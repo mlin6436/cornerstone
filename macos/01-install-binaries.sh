@@ -1,27 +1,16 @@
 binaries=(
   activemq
-  apache-spark
   awscli
-  docker
-  dotty
   elasticsearch
   ghc
   git
-  gradle
-  jenv
-  kotlin
   mackup
-  maven
   mongodb
   mysql
   openssl
   postgresql
   python
   rust
-  sbt
-  scala
-  subversion
-  tmux
   tomcat
   tree
   typesafe-activator
