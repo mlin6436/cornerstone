@@ -1,8 +1,7 @@
 The scripts will use home brew as the package manager for all the binaries and applications to be installed.
 
-# Notes
+Use specific package/version manager for more popular topics:
 
-There are some applications can be installed when needed:
-
-- [XCode Command Line Tool](https://developer.apple.com/xcode/downloads/) - in case you don't need complete XCode
-
+- [SDK](https://sdkman.io/install) for JVM based tooling, such as Java, Maven, Gradle, Spring, Kotlin, Scala and etc
+- [nvm](https://github.com/creationix/nvm) for Node
+- [ruby](https://rvm.io) for Ruby
